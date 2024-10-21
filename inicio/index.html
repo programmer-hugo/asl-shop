@@ -10,12 +10,16 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #1a1a1a;
             color: #ffffff;
-            background-image: url('ASL Shop.png');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-color: #1a1a1a; /* Fallback color */
+        }
+        .section1 {
+        background-image: url('ruta/a/tu/imagen.jpg');
+        background-size: cover; /* Ajusta la imagen al tamaño de la sección */
+        background-repeat: no-repeat; /* Evita que se repita la imagen */
+        background-position: center; /* Centra la imagen */
+        height: 100vh; /* Ajusta la altura según lo necesites */
+        color: white; /* Cambia el color del texto si es necesario */
         }
         .container1 {
             text-align: center;
@@ -101,26 +105,28 @@
             <li><a href="#productos">Productos</a></li>
         </ul>
     </nav>
-    <main>
-        <section id="inicio">
-            <h1>Bienvenido a ASL SHOP</h1>
-            <p>Descubre nuestros últimos productos de estilo urbano y expresa tu personalidad única.</p>
-            <a href="#productos" class="cta-button">Comprar Ahora</a>
-        </section>
+    <section class="section1">
+        <main>
+            <section id="inicio">
+                <h1>Bienvenido a ASL SHOP</h1>
+                <p>Descubre nuestros últimos productos de estilo urbano y expresa tu personalidad única.</p>
+                <a href="#productos" class="cta-button">Comprar Ahora</a>
+            </section>
         
-        <section id="productos">
-            <h2>Nuestros Productos</h2>
-            <div class="products">
-            <div class="container1">
-              <p class="p1">
-                <strong>
-                  PRÓXIMAMENTE
-                </strong>
-              </p>
-            </div>
-            </div>
-        </section>
-    </main>
+            <section id="productos">
+                <h2>Nuestros Productos</h2>
+                <div class="products">
+                <div class="container1">
+                  <p class="p1">
+                    <strong>
+                      PRÓXIMAMENTE
+                    </strong>
+                  </p>
+                </div>
+                </div>
+            </section>
+        </main>
+    </section>
     <footer>
         <p>&copy; 2025 ASL SHOP. Todos los derechos reservados.</p>
     </footer>
